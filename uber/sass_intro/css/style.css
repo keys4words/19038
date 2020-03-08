@@ -1,32 +1,23 @@
-/* line 1, ../4git/bs4/uber/sass_intro/sass/style.sass */
 h1 {
   color: red;
-  font-size: 50px;
-}
+  font-size: 50px; }
 
-/* line 5, ../4git/bs4/uber/sass_intro/sass/style.sass */
 h2 {
-  color: blue;
-}
+  color: blue; }
 
-/* line 8, ../4git/bs4/uber/sass_intro/sass/style.sass */
 .block {
-  background-color: black;
-}
-
-/* line 10, ../4git/bs4/uber/sass_intro/sass/style.sass */
-.block h3 {
-  color: white;
-}
-
-/* line 12, ../4git/bs4/uber/sass_intro/sass/style.sass */
-.block_color {
-  background-color: #fff;
-}
-
-/* line 14, ../4git/bs4/uber/sass_intro/sass/style.sass */
-.block_color button {
-  width: 250px;
-}
+  background-color: black; }
+  .block h3 {
+    color: white; }
+  .block_color {
+    background-color: #fff; }
+    .block_color button {
+      display: block;
+      width: 250px;
+      height: 200px;
+      background-color: red; }
+  .block .block_color {
+    font-family: Roboto;
+    color: green; }
 
 /*# sourceMappingURL=style.css.map */

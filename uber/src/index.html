@@ -7,6 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link
@@ -17,7 +18,7 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="css/style.min.css" />
 
-    <title>Home</title>
+    <title>Uber</title>
   </head>
 
   <body>
@@ -27,10 +28,10 @@
           <ul class="menu">
             <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
             <li class="menu_item">
-              <a href="#" class="menu_link">Со своим автомобилем</a>
+              <a href="#require" class="menu_link">Со своим автомобилем</a>
             </li>
             <li class="menu_item">
-              <a href="#" class="menu_link">На автомобиле компании</a>
+              <a href="#require" class="menu_link">На автомобиле компании</a>
             </li>
             <li class="menu_item">
               <a href="#" class="menu_link">Требования</a>
@@ -52,7 +53,7 @@
       <div class="subheader">
         <div class="container">
           <div class="row">
-            <div class="col-md-4 offset-md-1">
+            <div class="col-6 col-md-4 offset-md-1">
               <a href="#" class="subheader_logo"
                 ><img src="icons/logo.png" alt=""
               /></a>
@@ -60,13 +61,15 @@
                 Официальный партнер Uber в Москве
               </div>
             </div>
-            <div class="col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+            <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
               <div class="subheader_call">Звоните нам ежедневно</div>
               <a href="tel:84951234567" class="subheader_phone"
-                >8 495 123-45-67</a
-              >
+                >8 495 123-45-67
+              </a>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-3">
+              <a href="tel:84951234567" class="xs-visible subheader_phone">8 495 123-45-67
+              </a>
               <button class="subheader_btn">заказать звонок</button>
             </div>
           </div>
@@ -310,7 +313,7 @@
       </div>
     </section>
 
-    <section class="require">
+    <section class="require" id="require">
       <div class="container">
         <div class="label">возможности</div>
         <div class="title">условия и требования</div>
